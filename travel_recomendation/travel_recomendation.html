@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelNook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div>
+            <img src="images/logonook.jpg" alt="Nook Inc" width="40" height="40">
+            <a href="#home">Home</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="search-bar">
+            <select id="dropdown">
+                <option value="beaches">Beaches</option>
+                <option value="countries">Countries</option>
+                <option value="temples">Temples</option>
+            </select>
+            <input type="text" placeholder="Search for recommendations...">
+            <button>Search</button>
+            <button>Reset</button>
+        </div>
+    </div>
+
+    <!-- Home Page -->
+    <div class="home" id="home">
+        <h1 style="font-size:400%;color: rgb(8, 139, 63);">Welcome to Nook Inc</h1>
+        <h1>Your ultimate travel</h1>
+        <h1>Recomendation website</h1>
+        <div class="para-graph">
+            <p>Discover the world like never before with Adventure Horizons Travel Agency! Whether you're dreaming
+                of relaxing on a pristine beach, exploring ancient historical sites, or embarking on a thrilling
+                adventure,
+                we are here to make your travel dreams come true. Our dedicated team of travel experts will craft
+                personalized
+                itineraries that cater to your unique preferences and budget. From seamless bookings to exclusive
+                experiences,
+                we ensure every detail is taken care of, so you can focus on making unforgettable memories. Choose
+                Adventure Horizons
+                for your next journey and experience the ultimate in travel excellence!</p>
+        </div>
+
+
+        <div class="about-us" id="destination-container" style="display: none;"></div>
+
+
+        <div>
+            <a href="#"><img src="images/facebook.jpg" alt="Facebook" width="40" height="40"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter" width="40" height="40"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram" width="40" height="40"></a>
+        </div>
+    </div>
+
+    <!-- About Us Page -->
+    <div class="about-us" id="aboutus">
+        <h1>About Us</h1>
+        <p>Best company 4ever</p>
+        <h2>Our Team</h2>
+        <p>Tom Nook - CEO</p>
+        <p>Jane Smith - CTO</p>
+        <!-- Add more team members as needed -->
+    </div>
+
+    <!-- Contact Us Page -->
+    <div class="contact-us" id="contact">
+        <h1>Contact Us</h1>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./travel_recomendation.js"></script>
+</body>
+
+</html>
